@@ -3,7 +3,7 @@ import mysql.connector
 
 from user import User
 
-mydb = mysql.connector.connect(host="localhost", user="root", password="pass1234",  database="chatapp")
+mydb = mysql.connector.connect(host="localhost", user="root", password="pass12345",  database="chatapp")
 
 cursor = mydb.cursor()
 

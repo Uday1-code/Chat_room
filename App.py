@@ -6,7 +6,7 @@ from database import get_user, check_user, save_user, save_message
 
 app = Flask(__name__)
 # declare secret key
-app.secret_key = "1234"
+app.secret_key = "pass12345"
 # creating object of socketio and its create web sockets of app
 socketio = SocketIO(app)
 # create object od login manager of flask-login
